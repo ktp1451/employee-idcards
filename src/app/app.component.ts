@@ -1,10 +1,9 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'card-fancy-example',
+  templateUrl: 'card-fancy-example.html',
+  styleUrls: ['card-fancy-example.css'],
 })
-export class AppComponent {
-  title = 'employee-idcards';
-}
+export class CardFancyExample {}
