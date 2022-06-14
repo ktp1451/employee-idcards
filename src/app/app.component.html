@@ -1,4 +1,13 @@
-<mat-card class="example-card">
+<h1>{{users.name}}</h1>
+
+<ul *ngFor="let item of users">
+  <li>{{users.occupation}}</li>
+  <li>{{users.age}}</li>
+  <li>{{users.hobbies}}</li>
+</ul>
+
+
+<!-- <mat-card class="example-card">
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
     <mat-card-title>{{users.name}}</mat-card-title>
@@ -15,4 +24,4 @@
       </li>
     </ul>
   </mat-card-content>
-</mat-card>
+</mat-card> -->
