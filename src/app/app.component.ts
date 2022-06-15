@@ -15,7 +15,9 @@ export class CardFancyExample implements OnInit { //always make sure to have the
       house: "Gryffindor",
       age: 112,
       hobbies: "Knitting",
-      patronus: "Phoenix"
+      patronus: "Phoenix",
+      avatarImg: "assets/images/DD-profile",
+      mainImg: "assets/images/DD-mainimg"
     },
     {
       name: "Newt Scamander",
@@ -23,15 +25,19 @@ export class CardFancyExample implements OnInit { //always make sure to have the
       house: "Hufflepuff",
       age: 36,
       hobbies: "Creature Research",
-      patronus: "Kelpie"
+      patronus: "Kelpie",
+      avatarImg: "assets/images/newt-profile",
+      mainImg: "assets/images/newt-main"
     },
     {
-      name: "Luna Lovegood",
-      occupation: "Hogwarts Student",
+      name: "Gilderoy Lockhart",
+      occupation: "Author",
       house: "Ravenclaw",
-      age: 16,
-      hobbies: "Animal Lover",
-      patronus: "Hare"
+      age: 42,
+      hobbies: "Travel",
+      patronus: "Non-corporeal",
+      avatarImg: "assets/images/lockhart-profile",
+      mainImg: "assets/images/lockhart-mainimg"
     },
     {
       name: "Horace Slughorn",
@@ -39,7 +45,9 @@ export class CardFancyExample implements OnInit { //always make sure to have the
       house: "Slytherin",
       age: 75,
       hobbies: "Throwing Parties",
-      patronus: "Fish"
+      patronus: "Fish",
+      avatarImg: "assets/images/horace-profile",
+      mainImg: "assets/images/horace-main"
     }
   ]
 
