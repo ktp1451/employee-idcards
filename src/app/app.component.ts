@@ -17,7 +17,7 @@ export class CardFancyExample implements OnInit { //always make sure to have the
       hobbies: "Knitting",
       patronus: "Phoenix",
       avatarImg: "assets/images/DD-profile",
-      mainImg: "assets/images/DD-mainimg"
+      mainImg: "assets/images/DD-mainimg.webp"
     },
     {
       name: "Newt Scamander",
@@ -27,7 +27,7 @@ export class CardFancyExample implements OnInit { //always make sure to have the
       hobbies: "Creature Research",
       patronus: "Kelpie",
       avatarImg: "assets/images/newt-profile",
-      mainImg: "assets/images/newt-main"
+      mainImg: "assets/images/newt-main.jpeg"
     },
     {
       name: "Gilderoy Lockhart",
@@ -37,7 +37,7 @@ export class CardFancyExample implements OnInit { //always make sure to have the
       hobbies: "Travel",
       patronus: "Non-corporeal",
       avatarImg: "assets/images/lockhart-profile",
-      mainImg: "assets/images/lockhart-mainimg"
+      mainImg: "assets/images/lockhart-mainimg.jpeg.crdownload"
     },
     {
       name: "Horace Slughorn",
@@ -47,7 +47,7 @@ export class CardFancyExample implements OnInit { //always make sure to have the
       hobbies: "Throwing Parties",
       patronus: "Fish",
       avatarImg: "assets/images/horace-profile",
-      mainImg: "assets/images/horace-main"
+      mainImg: "assets/images/horace-main.jpeg"
     }
   ]
 
