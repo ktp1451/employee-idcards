@@ -2,7 +2,12 @@
     max-width: 400px;
   }
   
-  .example-header-image {
+  /* .example-header-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  } */
+
+  .dumbledoreAvatar {
+    background-image: url("../assets/images/DD-profile.jpeg");
     background-size: cover;
   }

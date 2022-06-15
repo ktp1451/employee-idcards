@@ -16,7 +16,7 @@ export class CardFancyExample implements OnInit { //always make sure to have the
       age: 112,
       hobbies: "Knitting",
       patronus: "Phoenix",
-      avatarImg: "assets/images/DD-profile",
+      avatarImg: "dumbledoreAvatar",
       mainImg: "assets/images/DD-mainimg.webp"
     },
     {
