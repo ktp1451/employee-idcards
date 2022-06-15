@@ -1,27 +1,36 @@
-<h1>{{users.name}}</h1>
+<!-- <div>
+  <h1 *ngFor="let item of users">{{item.name}}</h1>
+  <ul *ngFor="let item of users">
+    <li>{{item.name}}</li>
+    <li>{{item.occupation}}</li>
+    <li>{{item.age}}</li>
+    <li>{{item.hobbies}}</li>
+  </ul>
+</div> -->
 
-<ul *ngFor="let item of users">
-  <li>{{users.occupation}}</li>
-  <li>{{users.age}}</li>
-  <li>{{users.hobbies}}</li>
-</ul>
-
-
-<!-- <mat-card class="example-card">
-  <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>{{users.name}}</mat-card-title>
-    <mat-card-subtitle>{{users.occupation}}</mat-card-subtitle>
-  </mat-card-header>
-  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-  <mat-card-content>
-    <ul *ngFor="let item of users">
-      <li>
-        {{users.age}}
-      </li>
-      <li>
-        {{users.hobbies}}
-      </li>
-    </ul>
-  </mat-card-content>
-</mat-card> -->
+<div>
+  <mat-card class ="example-card" *ngFor="let item of users">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title >{{item.name}}</mat-card-title>
+      <mat-card-subtitle >{{item.occupation}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <ul >
+        <li>
+          Age: {{item.age}}
+        </li>
+        <li>
+          House: {{item.house}}
+        </li>
+        <li>
+          Patronus: {{item.patronus}}
+        </li>
+        <li>
+          Hobbies: {{item.hobbies}}
+        </li>
+      </ul>
+    </mat-card-content>
+  </mat-card>
+</div>

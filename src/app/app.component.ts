@@ -1,37 +1,57 @@
 import {Component, OnInit} from '@angular/core';
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./app.component.css']
 })
+
 export class CardFancyExample implements OnInit { //always make sure to have the "implements OnInit" after the object name
   //create an array of people
   users=[
     {
       name: "Albus Dumbledore",
       occupation: "Headmaster of Hogwarts",
+      house: "Gryffindor",
       age: 112,
-      hobbies: "Knitting"
+      hobbies: "Knitting",
+      patronus: "Phoenix"
     },
     {
-      name: "Harry Potter",
-      occupation: "Student at Hogwarts",
+      name: "Newt Scamander",
+      occupation: "MOM : Magizoologist, Beast Division",
+      house: "Hufflepuff",
+      age: 36,
+      hobbies: "Creature Research",
+      patronus: "Kelpie"
+    },
+    {
+      name: "Luna Lovegood",
+      occupation: "Hogwarts Student",
+      house: "Ravenclaw",
       age: 16,
-      hobbies: "Quidditch"
+      hobbies: "Animal Lover",
+      patronus: "Hare"
     },
     {
-      name: "Arthur Weasley",
-      occupation: "MOM : Misuse of Muggle Artefacts Office",
-      age: 55,
-      hobbies: "Collector"
-    },
+      name: "Horace Slughorn",
+      occupation: "Potions Master at Hogwarts",
+      house: "Slytherin",
+      age: 75,
+      hobbies: "Throwing Parties",
+      patronus: "Fish"
+    }
   ]
+
   //create a card for every person by using ngFor in HTML file 
   //center card on page vertically and horizontally using flexbox in CSS file 
   //BONUS implement ngIf in HTML file
+  //COLUMN GAP AND ROW GAP - css fun trick
+  //ngclass to implement photos 
   ngOnInit(): void {
     
   }
+  // TODO: ADD AN ONCLICK BUTTON TO MODAL
+  // TODO: WHEN YOU CLICK THIS BUTTON CREATE AN OBJECT MAP THAT PRINTS ALL THE CHARACTERS DETAILS IN THE CONSOLE 
+  //2 METHODS OF MAPPING IN ANGULAR: 1) HTML 2) JS
 }
