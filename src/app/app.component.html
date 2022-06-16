@@ -8,29 +8,31 @@
   </ul>
 </div> -->
 
-<div>
-  <mat-card class ="example-card" *ngFor="let item of users">
-    <mat-card-header>
-      <div mat-card-avatar [ngClass]={{item.avatarImg}}></div>
-      <mat-card-title >{{item.name}}</mat-card-title>
-      <mat-card-subtitle >{{item.occupation}}</mat-card-subtitle>
-    </mat-card-header>
-    <img mat-card-image src="{{item.mainImg}}" alt="Photos of People" class="mainImg">
-    <mat-card-content>
-      <ul >
-        <li>
-          Age: {{item.age}}
-        </li>
-        <li>
-          House: {{item.house}}
-        </li>
-        <li>
-          Patronus: {{item.patronus}}
-        </li>
-        <li>
-          Hobbies: {{item.hobbies}}
-        </li>
-      </ul>
-    </mat-card-content>
-  </mat-card>
+<div class="content">
+  <div fxLayout="row wrap" fxLayoutGap="25px grid">
+    <mat-card class ="example-card" fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="50%" *ngFor="let item of users">
+      <mat-card-header>
+        <!-- <div mat-card-avatar [ngClass]={{item.avatarImg}}></div> -->
+        <mat-card-title class="title-name">{{item.name}}</mat-card-title>
+        <mat-card-subtitle >{{item.occupation}}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="{{item.mainImg}}" alt="Photos of People" class="mainImg">
+      <mat-card-content>
+        <ul>
+          <li>
+            Age: {{item.age}}
+          </li>
+          <li>
+            House: {{item.house}}
+          </li>
+          <li>
+            Patronus: {{item.patronus}}
+          </li>
+          <li>
+            Hobbies: {{item.hobbies}}
+          </li>
+        </ul>
+      </mat-card-content>
+    </mat-card>
+  </div>
 </div>
