@@ -59,6 +59,10 @@ export class CardFancyExample implements OnInit { //always make sure to have the
   ngOnInit(): void {
     
   }
+
+  onClick(){
+    console.log("users");
+  }
   // TODO: ADD AN ONCLICK BUTTON TO MODAL
   // TODO: WHEN YOU CLICK THIS BUTTON CREATE AN OBJECT MAP THAT PRINTS ALL THE CHARACTERS DETAILS IN THE CONSOLE 
   //2 METHODS OF MAPPING IN ANGULAR: 1) HTML 2) JS

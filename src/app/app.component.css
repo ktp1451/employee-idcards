@@ -1,6 +1,25 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+.row {
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  padding: 125px;  
+
+}
+
 .example-card {
-    max-width: 400px;
-  }
+  max-width: 400px;
+  padding: 25px;
+}
+
+.button {
+  padding: 25px;
+}
 
   /* .title-name {
     color:blue;
