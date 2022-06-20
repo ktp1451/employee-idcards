@@ -60,8 +60,12 @@ export class CardFancyExample implements OnInit { //always make sure to have the
     
   }
 
+  sayMyName(name: string){
+    return(`${name} is a developer`);
+  };
+
   onClick(){
-    console.log("users");
+    console.log(this.sayMyName("Katie"));
   }
   // TODO: ADD AN ONCLICK BUTTON TO MODAL
   // TODO: WHEN YOU CLICK THIS BUTTON CREATE AN OBJECT MAP THAT PRINTS ALL THE CHARACTERS DETAILS IN THE CONSOLE 
